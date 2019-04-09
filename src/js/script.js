@@ -111,7 +111,7 @@ more.addEventListener('click', () => {
         }, 10); // тайммаут на 10 милисекунд
         bindNewModal(card);
     }
-
+    switchMode(night = false);
     sliceTitle('.videos__item-descr', 100);
 });
 
